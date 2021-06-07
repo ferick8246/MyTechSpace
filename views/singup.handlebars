@@ -1,52 +1,21 @@
-<div class="post">
-  <article class="card">
-    <div class="card-header flex-row justify-space-between">
-      <h2>{{post.title}}</h2>
+<div class="card">
+  <div class="card-header">
+    <h2>Sign Up</h2>
+  </div>
+  <div id="signup" role="tabpanel">
+    <form id="signup-form" class="card-body">
       <div>
-        Posted by {{post.User.username}} on {{format_date post.createdAt}}
+        <label for="username-input-signup">Username</label>
+        <input type="text" id="username-input-signup" />
       </div>
-    </div>
-    <div class="card-body">
-      {{post.body}}
-    </div>
-  </article>
-
-  {{#if post.Comments}}
-    <section class="card">
-      <div class="card-header">
-        <h3>Comments</h3>
+      <div>
+        <label for="password-input-signup">Password</label>
+        <input type="password" id="password-input-signup" />
       </div>
-
-      <div class="card-body">
-        {{#each post.Comments}}
-          <div>
-            <p>
-              {{body}}
-            </p>
-            <p>
-              &mdash; {{User.username}}, {{format_date createdAt}}
-            </p>
-          </div>
-        {{/each}}
-      </div>
-    </section>
-  {{/if}}
-
-  <form id="new-comment-form" class="card">
-    <div class="card-header">
-      <h3>Add New Comment</h3>
-    </div>
-
-    <div class="card-body">
-      <input type="hidden" name="post-id" value="{{post.id}}" />
-
-      <label class="form-label" for="comment-body">Comment</label>
-
-      <textarea name="comment-body" class="form-input"></textarea>
-
-      <button type="submit" class="btn">Submit</button>
-    </div>
-  </form>
+      <button type="submit" id="signup-btn" class="btn" >Signup!</button>
+      <a href="/login">Login instead</a>
+    </form>
+  </div>
 </div>
 
-<script src="/javascript/comment.js"></script>
+<script src="/javascript/signup.js"></script>
