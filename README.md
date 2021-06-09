@@ -5,7 +5,7 @@
 * [Install](#install)
 * [Usage](#usage)
 * [Questions](#questions)
-* [Video](#video)
+* [Screeshot](#screenshot)
 
 
 
@@ -32,6 +32,6 @@ For more, check me out my [GitHub](https://github.com/ferick8246)!
 
 If you have any questions regarding this project you can email me here at ferick8246@gmail.com 
 
-## Video 
+## Screeshot
 
-Check Out how it works [Click Here]()
+[picture](https://github.com/ferick8246/Tech-blog-/blob/9302ecbcbdd2750408e95966faa4c608174af192/MyTechSPACE.PNG)
