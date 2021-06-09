@@ -6,6 +6,7 @@
 * [Usage](#usage)
 * [Questions](#questions)
 * [Screeshot](#screenshot)
+* [Link](#link)
 
 
 
@@ -35,3 +36,7 @@ If you have any questions regarding this project you can email me here at ferick
 ## Screeshot
 
 ![picture](https://github.com/ferick8246/Tech-blog-/blob/9302ecbcbdd2750408e95966faa4c608174af192/MyTechSPACE.PNG)
+
+## Link 
+
+[Click-Here](https://obscure-taiga-30639.herokuapp.com/) to see it  work
